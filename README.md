@@ -1,6 +1,6 @@
 # ComfyUI Easy Padding
 
-ComfyUI Easy Padding is a simple custom ComfyUI node that helps you to add padding to images on ComfyUI.
+ComfyUI Easy Padding is a simple custom ComfyUI node that helps you to add padding to images (and masks) on ComfyUI.
 
 QR Code Examples;
 
@@ -21,6 +21,7 @@ This project currently contains one node.
 #### Inputs
 
 * `image` - Image input - Image
+* `optional_mask_in`  - Optional mask input - Mask
 * `left` - Left padding - INT
 * `top` - Top padding - INT
 * `right` - Right padding - INT
@@ -31,4 +32,4 @@ This project currently contains one node.
 #### Outputs
 
 * `IMAGE` - New image
-* `MASK` - Mask for impainting models 
+* `MASK` - Mask for inpainting models 
